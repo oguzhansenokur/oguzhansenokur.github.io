@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="left-to-right" class="nav-card-col ">
+        <div class="profile-overlay">
+          <div class="profile-content-wrapper">
+          <div class="profile-wrapper">
+            <img width="85px" class="profile-img"  src="./images/image-jeremy.png"/>
+          </div>
+          <div class="text-wrapper">
+            <p class="text">Report for</p>
+            <p class="full-name">Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="border-wrapper"></div>
+        </div>
+        <div class="tab-menu">
+          <div class="tab-content">
+            <a href="#" class="nav-text">Daily</a>
+            <a href="#" class="nav-text active">Weekly</a>
+            <a href="#" class="nav-text">Monthly</a>
+          </div>
+        </div>
+      </div>
+      <div class="cards-col">
+
+        <!--Card Work-->
+        <div id="work-card" class="card ">
+          <div class="card-header work">
+            <div class="card-content"></div>
+          </div>
+          <div class="content-container">
+            <div class="card-title">
+              <h1 class="card-heading">Work</h1>
+              <button class="card-menu">
+                <img width="100%" src="./images/icon-ellipsis.svg" />
+              </button>
+            </div>
+            <div class="card-wrapper">
+            <p class="card-main">32hrs</p>
+            <p class="card-footer">Last Week - 36hrs</p>
+          </div>
+          </div>
+        </div>
+        <div id="play" class="card ">
+          <div class="card-header game">
+            <span class="card-content"></span>
+          </div>
+          <div class="content-container">
+            <div class="card-title">
+              <h1 class="card-heading">Play</h1>
+              <button class="card-menu">
+                <img width="100%" src="./images/icon-ellipsis.svg" />
+              </button>
+            </div>
+            <div class="card-wrapper">
+            <p class="card-main">10hrs</p>
+            <p class="card-footer">Last Week - 8hrs</p>
+          </div>
+          </div>
+        </div>
+        <div id="study" class="card ">
+          <div class="card-header study">
+            <span class="card-content"></span>
+          </div>
+          <div class="content-container">
+            <div class="card-title">
+              <h1 class="card-heading">Study</h1>
+              <button class="card-menu">
+                <img width="100%" src="./images/icon-ellipsis.svg" />
+              </button>
+            </div>
+            <div class="card-wrapper">
+            <p class="card-main">4hrs</p>
+            <p class="card-footer">Last Week - 7hrs</p>
+          </div>
+        </div>
+        </div>
+        <div id="exercise" class="card ">
+          <div class="card-header exercise">
+            <span class="card-content"></span>
+          </div>
+          <div class="content-container">
+            <div class="card-title">
+              <h1 class="card-heading">Exercise</h1>
+              <button class="card-menu">
+                <img width="100%" src="./images/icon-ellipsis.svg" />
+              </button>
+            </div>
+            <div class="card-wrapper">
+            <p class="card-main">4hrs</p>
+            <p class="card-footer">Last Week - 5hrs</p>
+          </div>
+          </div>
+        </div>
+        <div id="social" class="card ">
+          <div class="card-header social">
+            <span class="card-content"></span>
+          </div>
+          <div class="content-container">
+            <div class="card-title">
+              <h1 class="card-heading">Social</h1>
+              <button class="card-menu">
+                <img width="100%" src="./images/icon-ellipsis.svg" />
+              </button>
+            </div>
+            <div class="card-wrapper">
+            <p class="card-main">5hrs</p>
+            <p class="card-footer">Last Week - 10hrs</p>
+          </div>
+        </div>
+        </div>
+        <div id="self-care" class="card ">
+          <div class="card-header self-care">
+            <span class="card-content"></span>
+          </div>
+          <div class="content-container">
+            <div class="card-title">
+              <h1 class="card-heading">Self Care</h1>
+              <button class="card-menu">
+                <img width="100%" src="./images/icon-ellipsis.svg" />
+              </button>
+            </div>
+            <div class="card-wrapper">
+            <p class="card-main">4hrs</p>
+            <p class="card-footer">Last Week - 7hrs</p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!--Card Work End-->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
